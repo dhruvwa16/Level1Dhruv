@@ -148,7 +148,7 @@ public class Jeopardy implements ActionListener {
 		// If the answer is correct
 		if(a.equals(correctAnswer)) {
 			JOptionPane.showMessageDialog(null, "Correct");
-			score+=button;
+			score+=200;
 		}
 			// Increase the score by the prizeMoney
 			

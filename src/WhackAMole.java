@@ -55,10 +55,12 @@ public class WhackAMole implements ActionListener {
 		// TODO Auto-generated method stub
 		if (e.getSource() == mole) {
 			a++;
+			speak("you did it");
 		} else {
 			speak("dork");
 		}
 		frame.dispose();
+		frame = new JFrame();
 		mole();
 		
 	}

@@ -68,7 +68,7 @@ MediaPalace mp = new MediaPalace();
 	public void mouseClicked(MouseEvent e) {
 		// TODO Auto-generated method stub
  
-   System.out.println( backgroundImage.getRGB(e.getX());
+   
 	}
 
 	@Override
